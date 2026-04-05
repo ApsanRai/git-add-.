@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+        form {
+            border: 2px solid navy;
+            padding: 20px;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px; /* optional: rounded corners */
+            background-color: #f9f9f9; /* optional: light background */
+        }
+    </style>
+
+    </head>
+    <body>
+        <h2 style="color:Navyblue ;text-align:center">Registration Form</h2>
+        
+        <form method="post" action="abc.php">
+            <label> Name: <label> <input type="text" id="name" placeholder="type your name here" required><br><br>
+
+                <label>class:</label>
+                <select>
+                    <option>Nursery</option>
+                    <option>lkg</option>
+                    <option>ukg</option>
+                    <option>1</option>
+                    <option>2</option>
+
+                    </select><br><br>
+                <label>Roll No: <input type="Number" placeholder="Enter roll number here"><br><br></label>   
+                <label>Gender:</label>    
+                       Male<input type="radio" name="gender" value="Male">
+                       female<input type="radio" name="gender" value="female">
+                       other<input type="radio" name="gender" value="other">
+                       <br><br>
+                <label>DOB:</label>
+                <input type="date"><br><br>
+
+            <label>Hobbies:</label> <br>
+                  <input type="checkbox" name="Hobby" value="swimming"> swimming <br>
+                  <input type="checkbox" name="Hobby" value="vlogging"> vlogging <br>
+                  <input type="checkbox" name="Hobby" value="karate"> karate <br>
+
+            <label>Email:</label>
+                  <input type="Email" placeholder="Enter your Email here"><br><br>
+            <label>Your Descreption:</label><br><br>
+                  <textarea rows="10" cols="50"> </textarea><br>
+                   
+                  <input type="reset" value="cancel">
+                  <input type="submit" value="Submit">
+            </label> </label>
+        </form>
+        </h2>
+    </body>
+</
